@@ -6,15 +6,8 @@
     "target": "esnext",
     "module": "commonjs",
     "moduleResolution": "node",
-    "jsx": "react-jsx",
-    "jsxImportSource": "preact",
+    "jsx": "react",
     "noEmit": true,
-    "paths": {
-      "react": ["./node_modules/preact/compat/"],
-      "react-dom/test-utils": ["./node_modules/preact/test-utils/"],
-      "react-dom": ["./node_modules/preact/compat/"],
-      "react/jsx-runtime": ["./node_modules/preact/jsx-runtime/"]
-    },
     "noImplicitAny": true,
     "noImplicitOverride": true,
     "noImplicitReturns": true,
